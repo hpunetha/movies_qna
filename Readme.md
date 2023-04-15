@@ -6,7 +6,7 @@ The movie-dialog-corpus from cornell is used and its pre-processing is done alon
 
 1. Preprocessing was performed on initial corpus (movie-dialog-corpus directory) and the database is exported as a SQLite database in database directory. Notebook is available in notebooks directory for the preprocessing and conversion ([preprocess_and_convert_to_sqlite_db.ipynb](./notebooks/preprocess_and_convert_to_sqlite_db.ipynb)).
 
-2. Question Answering is done using OpenAI's davince model using openai and langchain, the approach is described in the notebook [question_answering_on_sql_database.ipynb](./notebooks/question_answering_on_sql_database.ipynb)   
+2. Question Answering is done using OpenAI's davinci model along with langchain, the approach is described in the notebook [question_answering_on_sql_database.ipynb](./notebooks/question_answering_on_sql_database.ipynb)   
 
 ### How to view database and tables via database explorer
 SQLite database file moviesdb.db can be viewed by using a viewer for SQLite database such as https://sqlitebrowser.org/  
