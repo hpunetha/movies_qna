@@ -2,7 +2,11 @@ Work in progress.
 The intent of this repo is to use OpenAI for question Answering based on a custom database and few other retrieval based question answering tasks.  
 The movie-dialog-corpus from cornell is used and its pre-processing is done along with its conversion to a relational SQL database along with constraints like primary key, foreign key etc.  
 
-Preprocessing is complete and the database is exported as a SQLite database in database directory. Notebook is available in notebooks directory.
+## General Information
+
+1. Preprocessing was performed on initial corpus (movie-dialog-corpus directory) and the database is exported as a SQLite database in database directory. Notebook is available in notebooks directory for the preprocessing and conversion ([preprocess_and_convert_to_sqlite_db.ipynb](./notebooks/preprocess_and_convert_to_sqlite_db.ipynb)).
+
+2. Question Answering is done using OpenAI's davince model using openai and langchain, the approach is described in the notebook [question_answering_on_sql_database.ipynb](./notebooks/question_answering_on_sql_database.ipynb)   
 
 ### How to view database and tables via database explorer
 SQLite database file moviesdb.db can be viewed by using a viewer for SQLite database such as https://sqlitebrowser.org/  

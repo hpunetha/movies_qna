@@ -1,3 +1,5 @@
 sqlalchemy
 sqlite3
 pandas
+openai
+langchain
