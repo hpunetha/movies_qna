@@ -1,8 +1,7 @@
-Work in progress.  
-The intent of this repo is to use OpenAI for question Answering based on a custom database and few other retrieval based question answering tasks.  
-The movie-dialog-corpus from cornell is used and its pre-processing is done along with its conversion to a relational SQL database along with constraints like primary key, foreign key etc.  
-
 ## General Information
+
+The intent of this repo is to use OpenAI for question Answering based on a sql database and few other retrieval based question answering tasks using langchain.  
+The [movie-dialog-corpus from cornell](https://www.kaggle.com/datasets/Cornell-University/movie-dialog-corpus) is used in this repo and its pre-processing is done along with its conversion to a relational SQL database with addition of relational db constraints such as primary key, foreign key etc.  
 
 1. Preprocessing was performed on initial corpus (movie-dialog-corpus directory) and the database is exported as a SQLite database in database directory. Notebook is available in notebooks directory for the preprocessing and conversion ([preprocess_and_convert_to_sqlite_db.ipynb](./notebooks/preprocess_and_convert_to_sqlite_db.ipynb)).
 
