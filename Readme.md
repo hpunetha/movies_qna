@@ -7,7 +7,9 @@ The [movie-dialog-corpus from cornell](https://www.kaggle.com/datasets/Cornell-U
 
 2. Question Answering is done using OpenAI's davinci model along with langchain, the approach is described in the notebook. [question_answering_on_sql_database.ipynb](./notebooks/1_question_answering_on_sql_database.ipynb) . This notebook uses the sqlite database created in previous notebook.
 
-3. For fetching/scraping data from the movie script urls and to create FAISS based vector database indexes using OpenAI Embeddings refer the notebook  [fetch_movie_scripts_and_create_indexes.ipynb](./notebooks/2_fetch_movie_scripts_and_create_indexes.ipynb). This notebook can be skipped and the generated files can be downloaded from [Google drive folder](https://drive.google.com/drive/folders/1rWUQbW4gyOvU96Uo8vFSbJH4VTNjAg7g?usp=share_link).
+3. For fetching/scraping data from the movie script urls and to create FAISS based vector database indexes using OpenAI Embeddings refer the notebook  [fetch_movie_scripts_and_create_indexes.ipynb](./notebooks/2_fetch_movie_scripts_and_create_indexes.ipynb). This notebook can be skipped and the generated files can be downloaded from [Google drive folder](https://drive.google.com/drive/folders/1rWUQbW4gyOvU96Uo8vFSbJH4VTNjAg7g?usp=share_link).  
+
+4. For querying from openai for any query after getting relevent indexes from vector indexes created in previous notebook, use notebook [querying_from_openai_after_retrieval_from_indexes](./notebooks/3_querying_from_openai_after_retrieval_from_indexes.ipynb)
 
 ### How to view database and tables via database explorer
 SQLite database file moviesdb.db can be viewed by using a viewer for SQLite database such as https://sqlitebrowser.org/  
