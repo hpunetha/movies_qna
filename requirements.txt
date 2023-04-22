@@ -3,3 +3,7 @@ sqlite3
 pandas
 openai
 langchain
+tiktoken
+nltk
+faiss-cpu
+pickle
