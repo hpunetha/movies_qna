@@ -9,7 +9,9 @@ The [movie-dialog-corpus from cornell](https://www.kaggle.com/datasets/Cornell-U
 
 3. For fetching/scraping data from the movie script urls and to create FAISS based vector database indexes using OpenAI Embeddings refer the notebook  [fetch_movie_scripts_and_create_indexes.ipynb](./notebooks/2_fetch_movie_scripts_and_create_indexes.ipynb). This notebook can be skipped and the generated files can be downloaded from [Google drive folder](https://drive.google.com/drive/folders/1rWUQbW4gyOvU96Uo8vFSbJH4VTNjAg7g?usp=share_link).  
 
-4. For querying from openai for any query after getting relevent indexes from vector indexes created in previous notebook, use notebook [querying_from_openai_after_retrieval_from_indexes](./notebooks/3_querying_from_openai_after_retrieval_from_indexes.ipynb)
+4. For querying from openai for any query after getting relevent indexes from vector indexes created in previous notebook, use notebook [querying_from_openai_after_retrieval_from_indexes](./notebooks/3_querying_from_openai_after_retrieval_from_indexes.ipynb)  
+
+5. For using Agents and joining multiple tools together and building a basic question answering system joining both the SQL database module and Vector based querying on movie scripts and additional tools, go through the notebook [using_agents_for_qa_on_sql_and_vectordb.ipynb](./notebooks/4_using_agents_for_qa_on_sql_and_vectordb.ipynb)
 
 ### How to view database and tables via database explorer
 SQLite database file moviesdb.db can be viewed by using a viewer for SQLite database such as https://sqlitebrowser.org/  
